@@ -1,3 +1,4 @@
+//searching an element with TC O(log n*m)
 bool searchMatrix(vector<vector<int>>& matrix, int target) {
         int n=matrix.size();
         int m=matrix[0].size();
