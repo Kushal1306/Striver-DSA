@@ -7,7 +7,8 @@ public:
 
     //checking all possible quadruplets:
     for (int i = 0; i < n; i++) {
-        for (int j = i + 1; j < n; j++) {
+        for (int j = i + 1; j < n; j++) 
+        {
             set<long long> hashset;
             for (int k = j + 1; k < n; k++) {
                 // taking bigger data type
