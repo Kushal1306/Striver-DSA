@@ -11,7 +11,7 @@ public:
         while (tail->next != NULL) {
             tail = tail->next;
             length++;
-        }
+        } 
 
         // Adjust the value of k to the effective number of rotations
         k = k % length;

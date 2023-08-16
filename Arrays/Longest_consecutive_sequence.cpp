@@ -5,7 +5,7 @@
         int prev=nums[0];
         for(int i=1;i<nums.size();i++)
         {
-         if(nums[i]==prev+1)
+          if(nums[i]==prev+1)
           current++;
           else if(nums[i]!=prev+1)
           {

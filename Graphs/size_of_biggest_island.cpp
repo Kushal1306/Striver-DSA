@@ -5,7 +5,7 @@ int R, C;
 int kkj[501][501];
 int x8[]={-1,-1,0,1,1,1,0,-1};
 int y8[]={0,1,1,1,0,-1,-1,-1};
-
+ 
 int bfs(int i, int j)
 {
     queue<pair<int, int>> q;
